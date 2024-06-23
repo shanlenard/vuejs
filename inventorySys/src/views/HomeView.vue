@@ -4,6 +4,7 @@
     <h2>{{ appTitle }}</h2>
 
     <h3>{{ counterData.title }}</h3>
+    <h4>{{ counterData.title }}</h4>
     <div>
       <button @click="decreaseCounter(1)" class="btn">-</button>
       <span class="counter">{{ counterData.count }}</span>
